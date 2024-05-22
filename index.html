@@ -1,33 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="8"
-    <title>Personal portifolio website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="viewport" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>James Franklin</title>
     <!----CSS Link----->
-    <link rel="stylesheet" href="style.css"
-</head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95e17654d6.js" crossorigin="anonymous"></script>
+</head
 <body>
-    
-    <div class ="hero">
+    <div class ="container">
         <nav>
             <img src="file:///D:/DOCUMENTS/log.jpg" alt="Local Image">
-            <ul>
+            <ul> id="sidemenu">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">PORTIFOLIO</a></li>
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu"></i>
             </ul>
-            <a href="#" class="btn">BUY NOW</a>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
 
         <div class="content">
-            <span class="title">Freelance web Developer</span>
-            <hi>Hello, I'm <span>James Franklin</span></hi>
-            <p>I'm working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional React Template</p>
-            <a href="#" class="btn">Download CV</a>
+            <p><span class="title">Front-end Developer</span></p>
+            <hi>Hello, I'm <span>James<br>Franklin From Kenya</span></hi>
         </div>
     </div>
+    <!-------ABOUT--------->
+    <div id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="file:///D:/DOCUMENTS/BEST.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm James Franklin, a passionate and dedicated Front End Developer with a knack for creating dynamic and visually appealing web applications. With a strong foundation in HTML, CSS, and JavaScript, I strive to build user-friendly and responsive websites that provide exceptional user experiences.
+
+                        Over the years, I've honed my skills in various front-end frameworks and libraries such as React, Angular, and Vue.js. My expertise extends to utilizing modern tools like Webpack, Babel, and Git to streamline the development process and ensure high-quality code.
+                        
+                        I have a keen eye for design and a deep understanding of UX/UI principles, which allows me to collaborate effectively with designers and back-end developers to bring complex projects to life. My goal is always to bridge the gap between design and technology, creating seamless interfaces that not only look great but function flawlessly across all devices and browsers.
+                        
+                        Beyond technical skills, I pride myself on my problem-solving abilities and attention to detail. I enjoy tackling new challenges, learning emerging technologies, and continuously improving my craft. Whether working on a solo project or as part of a dynamic team, I am committed to delivering innovative solutions that meet and exceed client expectations.
+                        
+                        When I'm not coding, you can find me exploring the latest trends in web development, contributing to open-source projects,</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>JS?HTML?CSS</span><br>Designing Web/App interfaces</li>
+                                <li><span>REACT?ANGULAR?VUE</span><br>Building scalable web applications</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2024 - current</span><br>Internship at Stanbic Bank</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2024</span><br>BSC IN CS From GUI Kenya</li>
+                                <li><span>2023</span><br>Software Development from ISM Kenya</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------services-------------->
+    <div id="SERVICES">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing Web/App interfaces</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>REACT?ANGULAR?VUE</h2>
+                    <p>Building scalable web applications</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Building Android/iOS apps</p>
+                    <a href="#">Learn More</a>
+                </div>
+        </div>
+        <!-----------portifolio------>
+        <div id="PORTFOLIO">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="file:///D:/DOCUMENTS/L.png">
+                        <div class="layer">
+                            <h3>website</h3>
+                            <p>The websites helps tourist and adventure loving people to choose best destinations for thir trips.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="file:///D:/DOCUMENTS/OIP.jfif">
+                        <div class="layer">
+                            <h3>rubik cube game</h3>
+                            <p>The game is a  a puzzle game where player has to rotate the cube to align the colors.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="file:///D:/DOCUMENTS/work.jpeg">
+                        <div class="layer">
+                            <h3>A school portal login page</h3>
+                            <P>A login site to a school portal which help students get details about themselves and the course they are pursuing</P>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+            <!--------contact-->
+            <div id="CONTACT">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i> frankyjames102@gmail.com</p>
+                            <p><i class="fa-sharp fa-solid fa-square-phone"></i> +254 715 203 342</p>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/literally_frank_james/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.threads.net/@literally_frank_james"><i class="fa-brands fa-threads"></i></i></i></a>
+                            </div>
+                            <a href="file:///D:/DOCUMENTS/Lecture_Notes_in_Computer_Science.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="Text" name="Name" placeholder="Your Name" required>
+                                <input type="Email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="Submit" class="btn btn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="Copyright">
+                        <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Frank James.</p>
+                    </div>
+                </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function openmenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
