@@ -1,0 +1,76 @@
+{
+    "James franklin": "James Franklin portifolio",
+    "site description": "Welcome to james franklin's portifolio. Discover my projects,skills, and contact information.",
+    "navigation": [
+        {
+            "title": "Home",
+            "Link": "#Home"
+        },
+        {
+            "title": "About",
+            "Link": "#About"
+        },
+        {
+            "title": "Services",
+            "Link": "#Services"
+        },
+        {
+            "title": "PORTIFOLIO",
+            "Link": "#PORTIFOLIO"
+        },
+        {
+            "title": "contact",
+            "Link": "#contact"
+        }
+    ],
+"home": {
+    "welcomeMessage": "Hi, I'm James Franklin",
+    "subMessage": "A passionate web developer and designer",
+    "backgroundImage": "file:///D:/DOCUMENTS/BEST.jpg"
+},
+"about": {
+    "title": "About Me",
+    "content": "I am a web developer with a passion for creating beautiful and functional websites. I have experience in a wide range of technologies and enjoy learning new things.",
+    "profileImage": "file:///D:/DOCUMENTS/BEST.jpg",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js"
+    ]
+},
+"projects": {
+    "title": "Projects",
+    "items": [
+        {
+            "title": "website",
+            "description": "This project showcases a travel website interface with a man overlooking mountains, providing a visually stunning and immersive experience for users. The images capture the beauty of nature and the adventurous spirit of travel.",
+            "image": "file:///D:/DOCUMENTS/L.png"
+        },
+        {
+            "title": "work",
+            "description": "This project features colorful 3D code blocks on a laptop keyboard, representing the dynamic and vibrant nature of front-end development. The images showcase the creativity and technical expertise involved in coding and web development.",
+            "image": "file:///D:/DOCUMENTS/OIP.jfif"
+        },
+        {
+            "title": "work",
+            "description": "This project highlights a stylized login interface with an orange gradient background, demonstrating the focus on user experience and interface design. The images capture the modern and visually appealing design elements used in front-end development.",
+            "image": "file:///D:/DOCUMENTS/work.png"
+
+        }
+    ]
+},
+"contact": {
+    "title": "Contact Me",
+    "description": "Feel free to reach out to me through any of the following methods:",
+    "email": "Frankyjames102@gmail.com",
+    "phone": "+254715203342",
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/franklin-james-52a63a312/",
+        "github": "https://github.com/jamesfrank.058/",
+        "twitter": "https://x.com/its_frank_james",
+        "instagram": "https://www.instagram.com/literally_frank_james/"
+    }
+}
+}
